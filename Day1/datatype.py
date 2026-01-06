@@ -8,6 +8,13 @@
     *字元 char 'a'
 3.Boolean
     True(1)/False(0) bool()
+
+    3 -> True
+    -1 -> True
+    0 -> False
+
+    ' '
+
 4.List list()
 l = [123, 'hi', True, []]
 #.    0.    1.    2.   3
@@ -17,4 +24,5 @@ type(data) -> 查詢data的datatype
 
 123a
 '''
-print(type([]))
+# print(type([]))
+print(bool([]))
