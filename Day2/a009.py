@@ -1,4 +1,8 @@
-s = "1JKJ'pz'{ol'{yhklthyr'vm'{ol'Jvu{yvs'Kh{h'Jvywvyh{pvu5"
+s = input()
 # ord() #str -> ascii
 # chr() #ascii -> str
-print(ord(s))
+
+for i in s:
+    c = ord(i)
+    r = chr(c-7)
+    print(r, end='')
